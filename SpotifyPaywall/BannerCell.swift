@@ -13,7 +13,7 @@ class BannerCell: UICollectionViewCell {
     @IBOutlet weak var descriptionLabel: UILabel!
     
     override func awakeFromNib() {
-        self.awakeFromNib()
+        super.awakeFromNib()
         self.layer.cornerRadius = 16
     }
     
