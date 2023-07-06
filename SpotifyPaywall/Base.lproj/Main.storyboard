@@ -77,6 +77,11 @@
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="414" height="226"/>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="SKA-Vn-XRo" id="Ggn-lX-okZ"/>
+                                            <outlet property="imageView" destination="8pn-14-765" id="sqO-3q-t2h"/>
+                                            <outlet property="titleLabel" destination="pcG-Yt-9ar" id="UwW-NW-3tM"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -116,6 +121,10 @@
                             <constraint firstItem="ytP-68-Lyb" firstAttribute="centerX" secondItem="5iM-Me-6lD" secondAttribute="centerX" id="zl4-Ch-DQf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="4IN-3X-JGh" id="D9X-zf-b12"/>
+                        <outlet property="pagecontroll" destination="ytP-68-Lyb" id="Aux-ek-AjS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rOC-Iz-5Ql" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
